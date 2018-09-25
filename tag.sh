@@ -1,2 +1,3 @@
 #!/bin/sh
-docker build -t databox-personal-logger-driver:0.4.0
+docker build -t tlodge/databox-personal-logger-driver-amd64:0.5.0 .
+docker push tlodge/databox-personal-logger-driver-amd64:0.5.0
