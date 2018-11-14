@@ -23,5 +23,13 @@
     "hardware-permissions": [],
     "resource-requirements": {
         "store": "core-store"
-    }
+    },
+    "provides": [
+        {
+            "data-source-type": "personalLoggerActuator",
+            "description": "an actuator",
+            "store-type": "kv",
+            "schema":{}
+        }
+    ]
 }
